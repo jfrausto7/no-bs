@@ -30,7 +30,7 @@ function MyApp({Component, pageProps}) {
 
     return (<AuthContext.Provider value={{isAuthenticated, userProfile}}>
         <Head>
-            <title>No BS Boilerplate</title>
+            <title>Grapevine</title>
         </Head>
         <Component {...pageProps} />
     </AuthContext.Provider>)
